@@ -7,6 +7,11 @@ import Products from './Components/Pages/products';
 import LegalStatement from './Components/Pages/legal';
 import UserPage from './Components/Pages/userPage';
 import { useState } from 'react'
+import Shirts from './Components/Pages/products/shirt';
+import Socks from './Components/Pages/products/socks';
+import Accessories from './Components/Pages/products/acessories';
+import Trousers from './Components/Pages/products/trousers';
+import Interest from './Components/Pages/interest';
 
 
 
@@ -40,6 +45,11 @@ function App() {
       <Route path='/Pages/about' element={<About />}></Route>
       <Route path='/Pages/products' element={<Products />}></Route>
       <Route path='/Pages/legal' element={<LegalStatement />}></Route>
+      <Route path='/Pages/products/shirt' element={<Shirts />}></Route>
+      <Route path='/Pages/products/socks' element={<Socks />}></Route>
+      <Route path='/Pages/products/acessories' element={<Accessories />}></Route>
+      <Route path='/Pages/products/trousers' element={<Trousers />}></Route>
+      <Route path='/Pages/interest' element={<Interest />}></Route>
       {loggedIn &&
       <Route exact path='/Pages/userPage' element={<UserPage logoutButton={handleLogOut}/>}></Route>}
     </Routes>

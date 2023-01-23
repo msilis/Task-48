@@ -40,6 +40,7 @@ function NavigationBar(props){
             <Nav className="nav_list" >
                 <Link to="../Pages/products" className='text-decoration-none nav-list-item'>Products </Link>
                 <Link to="../Pages/about" className='text-decoration-none nav-list-item'>About</Link>
+                <Link to="../Pages/interest" className="text-decoration-none nav-list-item">Interest Calc</Link>
                 <Link to="../Pages/legal" className='text-decoration-none nav-list-item'>Legal</Link>
             </Nav>
             {button}
