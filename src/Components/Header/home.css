@@ -1,0 +1,13 @@
+img {
+    width: 800px;
+    height: 600px;
+}
+
+h1 {
+    position: fixed;
+    top: 30rem;
+    left: 35rem;
+    color: white;
+    font-weight: bolder;
+    font-size: 10rem;
+}

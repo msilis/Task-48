@@ -1,0 +1,14 @@
+.about-section {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.hanger-image {
+    width: 337px;
+    height: 560px;
+}
+
+.about-text {
+    width: 25rem;
+    margin-left: 2rem;
+}

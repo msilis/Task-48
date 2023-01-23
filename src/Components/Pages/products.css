@@ -1,0 +1,13 @@
+.card-pic {
+    height: 200px;
+    width: 400px;
+}
+
+.product-card-container {
+    display: flex;
+    gap: 2rem;
+    width: 60vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3rem;
+}
