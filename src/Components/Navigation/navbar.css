@@ -13,3 +13,13 @@
     margin-left: .5rem;
     margin-right: .5rem;
 }
+
+.dropdown a {
+    margin-top: -.5rem;
+    color: #0d6efd;
+    
+}
+
+.dropdown:hover a {
+    color: #0a58ca;
+}

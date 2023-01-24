@@ -6,6 +6,7 @@ import nncLogo from '../../Media/favicon_io/NNCLogo.png';
 import './navbar.css';
 import { Link } from 'react-router-dom'
 import LoginButton from '../loginButton';
+import { NavDropdown } from 'react-bootstrap';
 
 
 function NavigationBar(props){
@@ -34,7 +35,13 @@ function NavigationBar(props){
                 No-Name Clothing</Link></Navbar.Brand>
                 <Navbar.Collapse className='justify-content-end'>
             <Nav className="nav_list" >
-                <Link to="../Pages/products" className='text-decoration-none nav-list-item'>Products </Link>
+                <NavDropdown title="Products" className='dropdown'>
+                <NavDropdown.Item href="/Pages/products/shirt" className='text-decoration-none nav-list-item'>Shirts</NavDropdown.Item>
+                <NavDropdown.Item href="/Pages/products/trousers" className='text-decoration-none nav-list-item'>Trousers</NavDropdown.Item>
+                <NavDropdown.Item href="/Pages/products/socks" className='text-decoration-none nav-list-item'>Socks</NavDropdown.Item>
+                <NavDropdown.Item href="/Pages/products/acessories" className='text-decoration-none nav-list-item'>Acessories</NavDropdown.Item>
+                <NavDropdown.Item href="/Pages/products" className='text-decoration-none nav-list-item'>All Products </NavDropdown.Item>
+                </NavDropdown>
                 <Link to="../Pages/about" className='text-decoration-none nav-list-item'>About</Link>
                 <Link to="../Pages/interest" className="text-decoration-none nav-list-item">Interest Calc</Link>
                 <Link to="../Pages/legal" className='text-decoration-none nav-list-item'>Legal</Link>
