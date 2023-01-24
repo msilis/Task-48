@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0b4538c4.css",
+    "main.js": "/static/js/main.81f7e631.js",
+    "static/media/belt.jpg": "/static/media/belt.9fe32e41feda18ee0a34.jpg",
+    "static/media/gabriel-gonzalez-unsplash.jpg": "/static/media/gabriel-gonzalez-unsplash.0973c3136b8a0cc8cb58.jpg",
+    "static/media/nimble-made-shirt-unsplash.jpg": "/static/media/nimble-made-shirt-unsplash.38738be76065ecdc98e6.jpg",
+    "static/media/burgess-milner-unsplash.jpg": "/static/media/burgess-milner-unsplash.8e6067a4b4a9194a386d.jpg",
+    "static/media/eduardo-pastor-unsplash.jpg": "/static/media/eduardo-pastor-unsplash.608903f3508b43e79a03.jpg",
+    "static/media/andrej-lisakov-unsplash.jpg": "/static/media/andrej-lisakov-unsplash.23fe63313874def20d94.jpg",
+    "index.html": "/index.html",
+    "main.0b4538c4.css.map": "/static/css/main.0b4538c4.css.map",
+    "main.81f7e631.js.map": "/static/js/main.81f7e631.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b4538c4.css",
+    "static/js/main.81f7e631.js"
+  ]
+}
