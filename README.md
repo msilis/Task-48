@@ -1,2 +1,3 @@
-#No Name Clothing
-#A fictional clothin shop page built using React
+# No Name Clothing
+
+A fictional clothin shop page built using React
