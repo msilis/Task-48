@@ -1,9 +1,8 @@
-//style import
+//imports
 import './userPage.css'
 import { Button } from 'react-bootstrap';
 
 function UserPage(props){
-    console.log('user page')
 
     return(
         <div id="user-container">
@@ -11,7 +10,6 @@ function UserPage(props){
         <p>Here you can find information on your account.</p>
         <Button id="logout-button" onClick={props.logoutButton}>Logout</Button>
         </div>
-        
     )
 }
 

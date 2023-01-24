@@ -1,14 +1,14 @@
+//imports
 import Button from 'react-bootstrap/Button';
 
-
+//Login button text
 const loginButton = 'Sign In'
 const loggedIn = 'My Account'
 
 function LoginButton(props){
     
+    //get state of login to decide text of login button
     const loginClick = props.loginClick
-    console.log('My Account clicked');
-    console.log(`${props.checkLogin} from loginButton`)
 
     return(
         

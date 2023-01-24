@@ -1,3 +1,4 @@
+//imports
 import './App.css';
 import NavigationBar from './Components/Navigation/navbar';
 import Home from './Components/Header/home';
@@ -16,7 +17,7 @@ import Interest from './Components/Pages/interest';
 
 
 function App() {
-
+  //login state and redirect hook
   const [loggedIn, setLoggedIn] = useState(false);
   const navigate = useNavigate();
 
@@ -25,13 +26,12 @@ function App() {
     console.log(loggedIn)
     return setLoggedIn(set)
   }
-  console.log(loggedIn)
-
+  
+  //Logout button functionality
   function handleLogOut(){
-    console.log('logout button clicked')
     alert('You have been logged out.')
     changeLoginState(false);
-    console.log(loggedIn)
+    
     //redirect to main landing page
     navigate('/') 
     

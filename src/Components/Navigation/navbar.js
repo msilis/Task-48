@@ -1,18 +1,16 @@
+//imports
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-//import Button from 'react-bootstrap/Button'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import nncLogo from '../../Media/favicon_io/NNCLogo.png';
 import './navbar.css';
 import { Link } from 'react-router-dom'
 import LoginButton from '../loginButton';
-//import { useState } from 'react';
 
 
 function NavigationBar(props){
-    //Login button state
-    //const [loggedIn, setLoggedIn] = useState(false);
 
+    //Login button functionality
     function changeLoginHandler(){
         let name = prompt('Enter your name');
         alert(`Hello ${name}!`)
@@ -22,10 +20,8 @@ function NavigationBar(props){
     //Check login state to render button accurately
     let button;
     if (props.loginState){
-        console.log(props.loginState)
         button = <Link to="../Pages/userPage"><LoginButton checkLogin={props.loginState} /></Link>
     } else {
-        console.log(props.loginState)
         button = <LoginButton checkLogin={props.loginState} loginClick={changeLoginHandler}/>
     }
 
