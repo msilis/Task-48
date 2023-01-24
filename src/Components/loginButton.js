@@ -1,4 +1,5 @@
-import Button from 'react-bootstrap/Button'
+import Button from 'react-bootstrap/Button';
+
 
 const loginButton = 'Sign In'
 const loggedIn = 'My Account'

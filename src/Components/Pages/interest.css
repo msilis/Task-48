@@ -15,3 +15,7 @@ Button {
 input {
     margin-top: .75rem;
 }
+
+.interest-calc-container {
+    width: 50vw;
+}
